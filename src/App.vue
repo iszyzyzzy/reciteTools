@@ -76,6 +76,7 @@
           v-if="!!(presetData.filter(item => item.id === selectArticle)[0]) && !!(selectType)"
           v-model:displayAll="displayAll" :randomRate="randomRate" />
       </template>
+      <span style="color: lightgray;">Powered by Vue 3 | by @zy | source code at <a href="https://github.com/iszyzyzzy/reciteTools" style="color: lightblue">github</a></span>
     </var-space>
   </div>
 </template>
