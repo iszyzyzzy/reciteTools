@@ -19,7 +19,7 @@ for i in range(len(data)):
         "name": data[i].split("\n")[0].split(" ")[1],
         "cut": list(map(lambda x: re.split(r"([，。！？;；])",x),data[i].split("\n")[1:])),
         }
-    inspect(t)
+#    inspect(t)
     o.append(t)
 
 with open("./static/preset-text.json", "w", encoding="utf-8") as f:
